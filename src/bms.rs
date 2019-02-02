@@ -6,7 +6,7 @@ pub mod timeline;
 const BASE36: &'static str = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 /// A hexadecimal representation of an "object". Takes the range 00-ZZ.
-#[derive(Debug, Eq, Hash, PartialEq)]
+#[derive(Copy, Clone, Debug, Eq, Hash, PartialEq)]
 pub struct Alphanumeric {
     pub key: usize,
 }

@@ -5,6 +5,6 @@ authors = ["xeex"]
 edition = "2018"
 
 [dependencies]
-# quicksilver = "0.3.5"
+quicksilver = "0.3.5"
 encoding = "0.2.33"
 regex = "1.1.0"
